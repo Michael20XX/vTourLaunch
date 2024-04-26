@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Schwartz Library</title>
+  <style>
+    body {
+      background-color:cadetblue;
+    }
+    
+    .container {
+      position: relative;
+    }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position:relative;
+      max-width: 720px;
+    }
+
+    a:link, a:visited {
+      background-color: rgb(115, 234, 172);
+      color: black;
+      padding: 15px 30px;
+      margin: 75px 50px;
+      text-align: center;
+      text-decoration: none;
+      display:flex;
+      opacity: 0.85;
+    }
+
+    a:hover, a:active {
+    background-color: rgb(36, 181, 113);
+    color: white;
+    }
+  </style>
+  </head>
+    <body>
+
+      <h2>Welcome to the Michael Schwartz Library Virtual Tour</h2>
+
+      <p>
+        Please select one of the floor buttons below to continue the experience.
+      </p>
+      
+      <div class="container">
+
+        <img src ="assets/img/IMG_1976.jpg" alt ="Michael SchwartzLibrary">
+      
+        <div class="center">
+            
+            <a href="floor004/index.html" target ="_blank">floor004</a>
+            <a href="floor003/index.html" target ="_blank">floor003</a>
+            <a href="floor002/index.html" target ="_blank">floor002</a>
+            <a href="floor001/index.html" target ="_blank">floor001</a>
+
+        </div>
+
+        <p>
+          Credit: Photograph above shot by Russ @russ_lang_photography.
+        </p>
+
+      </div>
+    
+      <script type="module" src="main.js"></script>
+    
+  </body>
+</html>

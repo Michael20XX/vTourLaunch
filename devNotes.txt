@@ -1,0 +1,5 @@
+built with vite, a js framework
+
+  cd libtour 
+  npm install
+  npm run dev 
